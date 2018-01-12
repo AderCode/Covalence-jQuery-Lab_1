@@ -42,3 +42,18 @@ function getRandomColor() {
 randomColorPara.addEventListener("click", function() {
   randomColorPara.style.color = getRandomColor();
 });
+
+// Add a div and button that when clicked inserts a span containing your name into the div
+btnThree = document.createElement('button');
+btnThreeText = document.createTextNode("Create a Name Span")
+divEmpty = document.createElement('div');
+btnThree.appendChild(btnThreeText);
+document.body.appendChild(btnThree);
+document.body.appendChild(divEmpty);
+
+btnThree.addEventListener("click", function() {
+    let span = document.createElement("span");
+    let myName = document.createTextNode("Matthew Aderhold");
+    span.appendChild(myName);
+    divEmpty.appendChild(span);
+})
