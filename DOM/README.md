@@ -12,7 +12,7 @@ Number each example in your html page to correspond with the objective numbers b
 
 # Make a button and text box (you can just put them in your HTML). When the button is clicked, display an alert with the message that is typed in the text box.
 
-- Create a div in HTML. Without using CSS :hover, make the div change to a different background color when your mouse hovers over it. The div should return to its original color when the mouse exits the div.
+# Create a div in HTML. Without using CSS :hover, make the div change to a different background color when your mouse hovers over it. The div should return to its original color when the mouse exits the div.
 
 - Put some text in a paragraph. Make it where when you click on the paragraph, the color of the text switches to red. Once you get that working, try to rewrite your code to make it switch to a random color each click (you don't have to show the code for just red once you get random working).
 
