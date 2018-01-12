@@ -44,16 +44,46 @@ randomColorPara.addEventListener("click", function() {
 });
 
 // Add a div and button that when clicked inserts a span containing your name into the div
-btnThree = document.createElement('button');
-btnThreeText = document.createTextNode("Create a Name Span")
-divEmpty = document.createElement('div');
+btnThree = document.createElement("button");
+btnThreeText = document.createTextNode("Create a Name Span");
+divEmpty = document.createElement("div");
 btnThree.appendChild(btnThreeText);
 document.body.appendChild(btnThree);
 document.body.appendChild(divEmpty);
 
 btnThree.addEventListener("click", function() {
-    let span = document.createElement("span");
-    let myName = document.createTextNode("Matthew Aderhold");
-    span.appendChild(myName);
-    divEmpty.appendChild(span);
-})
+  let span = document.createElement("span");
+  let myName = document.createTextNode("Matthew Aderhold");
+  span.appendChild(myName);
+  divEmpty.appendChild(span);
+});
+
+// When a specified button is clicked it adds the next friend in an array to the list on the page
+let friends = [
+  "Tom",
+  "Dick",
+  "Harry",
+  "Larry",
+  "Curly",
+  "Moe",
+  "Suzy",
+  "Sarah",
+  "Farrack",
+  "Judas"
+];
+let btnFour = document.getElementById("addFriendsBtn");
+let friendsList = document.getElementById("friends");
+let i = 0;
+
+btnFour.addEventListener("click", function() {
+  if (i < friends.length) {
+    let li = document.createElement("li");
+    let friendToAdd = friends[i];
+    let friend = document.createTextNode(friendToAdd);
+    li.appendChild(friend);
+    friendsList.appendChild(li);
+    i++;
+  } else {
+      alert("You ran out of friends, sorry!")
+  }
+});

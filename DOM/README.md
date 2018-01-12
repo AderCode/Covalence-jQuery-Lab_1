@@ -16,6 +16,6 @@ Number each example in your html page to correspond with the objective numbers b
 
 # Put some text in a paragraph. Make it where when you click on the paragraph, the color of the text switches to red. Once you get that working, try to rewrite your code to make it switch to a random color each click (you don't have to show the code for just red once you get random working).
 
-- Add a button and an empty div. When the button is clicked, add a span that contains your name to the empty div.
+# Add a button and an empty div. When the button is clicked, add a span that contains your name to the empty div.
 
-- Create a button and a ul in your HTML. In JavaScript, create an array containing the names of your friends (at least 10. If you don't have that many, include your imaginary ones). When the button is clicked, add each friend's name as an li to the ul on the page.
+# Create a button and a ul in your HTML. In JavaScript, create an array containing the names of your friends (at least 10. If you don't have that many, include your imaginary ones). When the button is clicked, add each friend's name as an li to the ul on the page.
