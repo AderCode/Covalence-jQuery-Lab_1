@@ -13,3 +13,15 @@ btnTwo.addEventListener("click", function() {
   let textBoxValue = document.getElementById("text-box").value;
   alert(textBoxValue);
 });
+
+
+// Change div color on hover, change back when not over
+let divHover = document.getElementById("divHover");
+
+divHover.addEventListener("mouseover", function() {
+    divHover.style.backgroundColor = "yellow";
+});
+
+divHover.addEventListener("mouseout", function() {
+    divHover.style.backgroundColor = "black";
+});
