@@ -8,7 +8,7 @@ Number each example in your html page to correspond with the objective numbers b
 
 ##Objectives
 
-- Make a button appear on the page when it's first loaded. The button cannot already be in your html. When the button is clicked, you should display an Alert box with any (nice) message.
+# Make a button appear on the page when it's first loaded. The button cannot already be in your html. When the button is clicked, you should display an Alert box with any (nice) message.
 
 - Make a button and text box (you can just put them in your HTML). When the button is clicked, display an alert with the message that is typed in the text box.
 
